@@ -8,16 +8,16 @@ This project uses the method proposed by [Wang et al.](https://doi.org/10.1016/0
 
 Python 3 is required.
 
-Install requirements:
+Install [pipx](https://github.com/pypa/pipx) >=1.4.2:
 
 ```sh
-python -m pip install -r requirements.txt
+python -m pip install -U pipx
 ```
 
 Run the Monte-Carlo simulation:
 
 ```sh
-python run.py > output.txt
+pipx run run.py > output.txt
 ```
 
 The output files `output.txt`, `pDW`, and `pz` has been given in this repository.

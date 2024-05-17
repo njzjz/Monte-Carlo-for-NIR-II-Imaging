@@ -1,3 +1,13 @@
+
+# /// script
+# requires-python = ">=3"
+# dependencies = [
+#   "numpy",
+#   "tabulate",
+#   "tqdm",
+# ]
+# ///
+
 import csv
 from math import acos, asin, copysign, cos, floor, log, pi, sin, sqrt, tan
 from random import random
